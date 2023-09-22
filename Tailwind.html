@@ -1,0 +1,171 @@
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&amp;family=Montserrat:wght@400;500&amp;display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer">
+  <title>Resume</title>
+  <style type="text/tailwindcss">
+    * {
+      font-family: Montserrat
+    }
+
+    h1 {
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      -webkit-text-fill-color: transparent;
+      -webkit-text-stroke: 4px;
+    }
+
+    @layer base {
+      h2 {
+        margin-bottom: 0.5rem;
+        font-weight: 600;
+        font-size: 1.5rem;
+        line-height: 2rem;
+        text-decoration-line: underline;
+      }
+
+      h3 {
+        margin-bottom: 0.25rem;
+        font-size: 1.125rem;
+        line-height: 1.75rem;
+      }
+
+      h3>span {
+        font-size: 1.225rem;
+        font-weight: bold;
+      }
+
+      ul {
+        list-style-type: disc;
+        padding-left: 2rem;
+      }
+
+      li {
+        margin-bottom: 0.25rem;
+      }
+
+      li:last-child {
+        margin-bottom: 1rem;
+      }
+
+      a{
+        text-decoration-line: underline;
+        color: white;
+        font-weight: 500;
+      }
+
+      a:hover {
+        font-size: 1rem;
+        font-weight: bold;
+      }
+
+      nav>a{
+        margin: 0.5rem 0.5rem;
+        margin-bottom: 0.5rem;
+        color: rgb(56 189 248);
+        text-decoration-line: none;
+      }
+
+      nav>a:hover {
+        color: rgb(196 181 253);
+      }
+
+      i {
+        margin-right: 0.5rem;
+      }
+    html{
+     box-shadow: 0px 0px 8px 2px rgba(0, 0, 0, 0.2);
+    }
+    }
+    </style>
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- <link rel="stylesheet" href="style.css"> -->
+</head>
+
+<body class="text-base mx-16">
+  <header class="bg-neutral-900 px-3 pt-5 pb-3 text-center"">
+      <h1 class=" my-4 text-7xl text-teal-300 font-bold">Sanket Shah</h1>
+    <nav class="flex flex-wrap justify-evenly">
+      <a href="mailto:sanketshah4716gmail.com"><i class="fa-regular fa-envelope fa-2xl"></i>sanketshah4716@gmail.com
+
+      </a>
+
+
+      <a href="https://www.linkedin.com/in/sanket-shaha/" target="_blank" rel="noopener noreferrer"><i
+          class="fa-brands fa-linkedin fa-2xl"></i>LinkedIn</a><br>
+      <a href="https://github.com/sankyshah/" target="_blank" rel="noopener noreferrer"><i
+          class="fa-brands fa-github fa-2xl"></i>Github</a><br>
+      <a href="tel:+91 8050437016"><i class="fa-solid fa-square-phone fa-2xl"></i>+91 8050437016</a>
+    </nav>
+  </header>
+  <hr>
+  <main class="px-3 py-5 bg-teal-500">
+    <section>
+      <article class="summary">
+        <h2>Summary</h2>
+        <p>Experienced in ASP.NET MVC 5, C#, SQL Server 2017, Java script ,Angular 8. An effective listener that can
+          communicate technical information in an easily understandable way. Offers a strong background in creative
+          problem-solving and a proven ability to multi-task and prioritize in fast-paced, stressful environments.</p>
+      </article>
+    </section>
+    <section>
+      <article class="Experience">
+        <h2>Experience</h2>
+        <h3>Software Engineer Portallinfosystems</h3>
+        <p><b> project name </b>: Port community system </p>
+        <ul>
+          <li>This Project is designed For Port .which helps to reduce the work which manually happens in the port while
+            import export the cargo container from one port to another via vessel.</li>
+          <li>Involved development of various modules for usage of various stakeholders of IPA as per the client
+            requirement. </li>
+          <li>Worked for Particular Module by writing the code, designing screens Creating tables, Complex Stored
+            Procedures</li>
+          <li>Involved in bug fixing for flow analysis of earlier version of existing system.
+
+          </li>
+        </ul>
+        <p><b>project name</b>:National Logistics Portal </p>
+        <ul>
+          <li>NLP mainly aims to function as a central system for electronic sharing and exchange with interoperability
+            across ocean, air, rail, inland waterways and coastal movement of goods.</li>
+          <li>Involved development of various modules for usage of various stakeholders of IPA as per the client
+            requirement. </li>
+          <li>Worked for Particular Module by writing the code, designing screens Creating tables, Complex Stored
+            Procedures.</li>
+          <li>Involved in bug fixing for flow analysis of earlier version of existing system.</li>
+        </ul>
+      </article>
+    </section>
+    <hr>
+    <section>
+      <article class="Education">
+        <h2>Qualification:</h2>
+        <ul>
+          <li>MCA Computer Science from V.T.U Bangalore, Karnataka. </li>
+        </ul>
+      </article>
+    </section>
+    <hr>
+    <section>
+      <article class="Hobbies">
+        <h2>Hobbies</h2>
+        <ul>
+          <li>Travelling</li>
+          <li>Dancing</li>
+        </ul>
+
+      </article>
+    </section>
+  </main>
+  <footer class="py-3 bg-neutral-900 text-white text-center font-bold">
+    <p>© Sanket Shah</p>
+  </footer>
+</body>
+
+</html>
